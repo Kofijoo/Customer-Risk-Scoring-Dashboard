@@ -65,8 +65,8 @@ This system provides comprehensive customer risk assessment by analyzing:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/customer-risk-scoring-dashboard.git
-cd customer-risk-scoring-dashboard
+git clone https://github.com/Kofijoo/Customer-Risk-Scoring-Dashboard.git
+cd Customer-Risk-Scoring-Dashboard
 
 # Create virtual environment
 python -m venv venv

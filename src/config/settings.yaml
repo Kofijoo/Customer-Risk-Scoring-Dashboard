@@ -1,0 +1,23 @@
+# Risk Scoring Configuration
+risk_scoring:
+  thresholds:
+    low_risk: 30
+    medium_risk: 60
+    high_risk: 85
+  
+  weights:
+    transaction_volume: 0.3
+    pep_status: 0.4
+    country_risk: 0.2
+    flagged_transactions: 0.1
+
+# Data Paths
+data:
+  raw_path: "./data/raw"
+  processed_path: "./data/processed"
+  external_path: "./data/external"
+
+# Model Settings
+model:
+  random_state: 42
+  test_size: 0.2
